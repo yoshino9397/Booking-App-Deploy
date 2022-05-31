@@ -37,7 +37,12 @@ const Navbar = () => {
               style={{ fontSize: "25px" }}
               onClick={handleLogout}
             />
-            <h3>{user.username}</h3>
+            <a
+              href="https://yoshino-booking-admin.herokuapp.com/"
+              style={{ textDecoration: "none", color: "#E5E5E5" }}
+            >
+              <h3>{user.username}</h3>
+            </a>
           </div>
         ) : (
           <div>
