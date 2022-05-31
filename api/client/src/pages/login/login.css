@@ -1,0 +1,44 @@
+.Login{
+  height: 100vh;
+  background-image:linear-gradient(rgba(128, 126, 126, 0.639), rgba(117, 116, 116, 0.656)),  url(https://live.staticflickr.com/65535/52077093471_27d9182e43_k.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  gap: 10px;
+}
+
+.lInput{
+  width:20vw;
+  height: 30px;
+  padding: 10px;
+}
+
+.lButton {
+  width:20vw;
+  height: 45px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #3d5472;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:disabled{
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+
+.register{
+  background-color: #EA5455
+}

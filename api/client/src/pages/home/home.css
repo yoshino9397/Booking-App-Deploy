@@ -1,0 +1,23 @@
+body{
+  padding:0;
+}
+.homeContainer{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.exploreTitle{
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.homeContainer>h3{
+  margin-top: -15px;
+}
+.homeTitle{
+  font-size: 25px;
+}
